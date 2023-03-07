@@ -1,0 +1,30 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.row {
+  width: 700px;
+  display: flex;
+}
+.pixel {
+  width: .5%;
+  max-width: 100px;
+  max-height: 100px;
+  aspect-ratio:1/1;
+  background-color: white;
+  border-style: clear;
+}
+#drawing {
+  border-style:solid;
+  border-width:3px;
+  width:699px;
+  height:524px;
+}
+
+button {
+  background-color: rgb(65, 45, 73);
+  color: white;
+  font-size: 15px;
+  margin: 5px;
+  padding: 15px 30px;
+}
